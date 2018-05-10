@@ -191,7 +191,29 @@ const Auth = {
     'jessica': '7890',
     'morty': '4321'
   },
-  authcodes: {}
+  authcodes: {},
+  userAssignedDevices:{
+    '1234' : 'Smart Light 1',
+    '1234' : 'Smart Light 2',
+    '1234' : 'Smart Light 3',
+    '1234' : 'Wall Thermostat 1',
+    '2345' : 'Smart Light 4',
+    '2345' : 'Smart Light 5',
+    '2345' : 'Dish Washer 1'
+},
+pins:
+{
+   'Smart Light 1' : 3,
+'Smart Light 2' : 5,
+'Smart Light 3' : 7,
+'Smart Light 4' : 8,
+'Smart Light 5' : 10,
+'Smart Vacuum 1' : 11,
+'Dish Washer 1' : 12,
+}
+
+
+
 };
 
 Auth.clients[config.smartHomeProviderGoogleClientId] = {
